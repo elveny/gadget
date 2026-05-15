@@ -1,0 +1,14 @@
+@"
+# 临时文件
+*.tmp
+*.log
+*.ps1~
+*.bak
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 配置文件（如果 config.ini 包含敏感路径，可忽略；否则保留）
+# config.ini
+"@ | Out-File -FilePath .gitignore -Encoding utf8
